@@ -55,7 +55,7 @@ In order to keep Alamofire focused specifically on core networking implementatio
 
 ## Requirements
 
-- iOS 9.0+ / macOS 10.11+ / tvOS 9.0+ / watchOS 2.0+
+- iOS 8.0+ / macOS 10.11+ / tvOS 9.0+ / watchOS 2.0+
 - Xcode 8.0+
 - Swift 3.0+
 
@@ -89,11 +89,11 @@ To integrate Alamofire into your Xcode project using CocoaPods, specify it in yo
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'Alamofire', '~> 4.0'
+    pod 'AlamofireDomain', '~> 4.0'
 end
 ```
 
